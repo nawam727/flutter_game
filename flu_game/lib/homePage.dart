@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flu_game/barriers.dart';
 import 'package:flu_game/ninja.dart';
 import 'package:flutter/material.dart';
