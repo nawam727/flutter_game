@@ -60,6 +60,7 @@ class _HomePageState extends State<HomePage> {
       }
     });
   }
+  int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -72,6 +73,10 @@ class _HomePageState extends State<HomePage> {
                     }
                   },
       child: Scaffold(
+         appBar: AppBarWithMenu(
+        title: title[_selectedIndex],
+        notifications: 4,
+      ),
         body: Column(children: [
           Expanded(
               flex: 2,
